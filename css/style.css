@@ -48,7 +48,7 @@ nav{display:flex;gap:25px;color:#fff;font-size:13px;font-weight:800;text-transfo
   display:grid;place-items:end center;
   padding:120px 6% 55px;
   text-align:center;
-  background:url("../assets/toposite.jpg") center top/contain no-repeat #eec5dc;
+  background:url("../assets/toposite.jpg") center top/cover no-repeat;
   overflow:hidden;
 }
 .hero::after{
