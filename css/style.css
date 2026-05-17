@@ -125,7 +125,7 @@ h2 small{display:block;color:var(--pink);font-size:.5em}
 .about img{width:100%;border-radius:32px 0 32px 0;box-shadow:0 15px 38px rgba(92,18,76,.16)}
 .gallery{text-align:center;padding-top:30px;padding-bottom:30px}
 .gallery h2{font-size:26px}
-.grid-gallery{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin-top:18px}
+.grid-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:18px}
 .grid-gallery img{width:100%;height:auto;display:block;background:#ffd4ea}
 .info{
   display:grid;grid-template-columns:1fr 1.15fr;gap:36px;background:rgba(255,255,255,.55)
@@ -165,7 +165,7 @@ footer strong{text-align:right;line-height:1.5;text-transform:uppercase}
   nav{display:none}
   .intro,.video,.about,.info,.contact{grid-template-columns:1fr}
   .song-row{grid-template-columns:repeat(2,1fr)}
-  .grid-gallery{grid-template-columns:repeat(3,1fr)}
+  .grid-gallery{grid-template-columns:repeat(2,1fr)}
   .cards{grid-template-columns:1fr}
   .contact img{display:none}
   footer{grid-template-columns:1fr;text-align:center}
