@@ -46,7 +46,7 @@ nav{display:flex;gap:25px;color:#fff;font-size:13px;font-weight:800;text-transfo
   min-height:720px;
   position:relative;
   display:grid;place-items:end center;
-  padding:120px 6% 55px;
+  padding:82px 6% 20px;
   text-align:center;
   background:url("../assets/toposite.jpg") center top/cover no-repeat;
   overflow:hidden;
@@ -59,19 +59,20 @@ nav{display:flex;gap:25px;color:#fff;font-size:13px;font-weight:800;text-transfo
   position:absolute;inset:0;
   background:linear-gradient(180deg,rgba(255,255,255,.3),rgba(255,226,244,.25) 75%);
 }
-.hero-copy{position:relative;z-index:2;margin-top:320px}
+.hero-copy{position:relative;z-index:2;align-self:stretch;display:flex;flex-direction:column;justify-content:space-between;padding:0}
+.hero-bottom{margin-top:auto}
 .hero h1{
   font-family:Cinzel,serif;text-transform:uppercase;font-weight:900;
-  font-size:clamp(64px,9vw,132px);line-height:.82;letter-spacing:1.5px;
+  font-size:clamp(48px,7vw,100px);line-height:.82;letter-spacing:1.5px;
   color:#f3dc8a;
   text-shadow:0 2px 0 #7d551f,0 5px 1px rgba(255,255,255,.25),0 11px 22px rgba(69,18,67,.52),0 0 20px #fff;
 }
 .hand{
   font-family:"Great Vibes",cursive;
   font-size:clamp(34px,4vw,58px);
-  margin-top:8px;color:#4b2445;
+  margin:0;color:#4b2445;line-height:1;
 }
-.lead{font-weight:600;font-size:16px;max-width:680px;margin:10px auto 20px}
+.lead{font-weight:600;font-size:16px;max-width:680px;margin:0 auto 10px}
 .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .btn{
   border:0;border-radius:999px;padding:14px 27px;
@@ -174,7 +175,7 @@ footer strong{text-align:right;line-height:1.5;text-transform:uppercase}
 @media(max-width:600px){
   .topbar{height:64px;padding:10px 5%}.brand{font-size:23px}.icons{display:none}
   .hero{min-height:610px;padding:90px 5% 40px;background-position:center top}
-  .hero-copy{margin-top:265px}
+  .hero-copy{padding-top:30px}
   .song-row{grid-template-columns:1fr}
   .grid-gallery{grid-template-columns:repeat(2,1fr)}
   .event{grid-template-columns:58px 1fr}.event a{grid-column:2;width:max-content}
