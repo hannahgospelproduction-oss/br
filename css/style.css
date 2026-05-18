@@ -95,7 +95,7 @@ h2 small{display:block;color:var(--pink);font-size:.5em}
 .intro p,.about p,.video p,.contact p{font-size:16px;line-height:1.75;margin:19px 0;max-width:610px}
 .intro-image{
   min-height:260px;border-radius:0;
-  background:url("../assets/umavozlevantadaparaadorar.jpg") center/contain no-repeat #ffc8e5;
+  background:url("../assets/paraadorar.jpg") center/cover no-repeat #ffc8e5;
 }
 .songs{text-align:center;background:linear-gradient(180deg,#ffd4ea,#fff0f8)}
 .song-row{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;margin-top:28px;align-items:stretch}
