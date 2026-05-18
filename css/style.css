@@ -63,7 +63,7 @@ nav{display:flex;gap:25px;color:#fff;font-size:13px;font-weight:800;text-transfo
 .hero-bottom{margin-top:auto}
 .hero h1{
   font-family:Cinzel,serif;text-transform:uppercase;font-weight:900;
-  font-size:clamp(48px,7vw,100px);line-height:.82;letter-spacing:1.5px;
+  font-size:clamp(42px,6.5vw,85px);line-height:.82;letter-spacing:1.5px;padding-left:clamp(60px,7vw,100px);
   color:#f3dc8a;
   text-shadow:0 2px 0 #7d551f,0 5px 1px rgba(255,255,255,.25),0 11px 22px rgba(69,18,67,.52),0 0 20px #fff;
 }
